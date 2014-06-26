@@ -21,6 +21,7 @@
 		669F4F3C195C5BD2002787A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669F4F1E195C5BD2002787A2 /* UIKit.framework */; };
 		669F4F44195C5BD2002787A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 669F4F42195C5BD2002787A2 /* InfoPlist.strings */; };
 		669F4F46195C5BD2002787A2 /* SoundCloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F4F45195C5BD2002787A2 /* SoundCloudTestTests.m */; };
+		669F4F50195C5C8C002787A2 /* SCLoginTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 669F4F4F195C5C8C002787A2 /* SCLoginTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		669F4F41195C5BD2002787A2 /* SoundCloudTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundCloudTestTests-Info.plist"; sourceTree = "<group>"; };
 		669F4F43195C5BD2002787A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		669F4F45195C5BD2002787A2 /* SoundCloudTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundCloudTestTests.m; sourceTree = "<group>"; };
+		669F4F4F195C5C8C002787A2 /* SCLoginTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				669F4F45195C5BD2002787A2 /* SoundCloudTestTests.m */,
 				669F4F40195C5BD2002787A2 /* Supporting Files */,
+				669F4F4F195C5C8C002787A2 /* SCLoginTestCase.m */,
 			);
 			path = SoundCloudTestTests;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669F4F46195C5BD2002787A2 /* SoundCloudTestTests.m in Sources */,
+				669F4F50195C5C8C002787A2 /* SCLoginTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
