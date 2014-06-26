@@ -7,8 +7,16 @@
 //
 
 #import "SCAppDelegate.h"
+#import <SCAPI.h>
 
 @implementation SCAppDelegate
+
++ (void) initialize
+{
+    [SCSoundCloud setClientID:@"82764c9c96756f4b3aba80e2d08050fe"
+                       secret:@"88eae0cafc1fce750ec9c41052b13144"
+                  redirectURL:[NSURL URLWithString:@"SoundcloudTest://oAuth"]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
