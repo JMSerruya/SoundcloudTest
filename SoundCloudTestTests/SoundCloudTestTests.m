@@ -17,6 +17,9 @@
 - (void)setUp
 {
     [super setUp];
+    [SCSoundCloud  setClientID:@"<Client ID>"
+                        secret:@"<Client Secret>"
+                   redirectURL:[NSURL URLWithString:@"<Redirect URL>"]];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
