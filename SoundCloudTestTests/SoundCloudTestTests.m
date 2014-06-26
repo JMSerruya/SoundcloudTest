@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <SCAPI.h>
 
 @interface SoundCloudTestTests : XCTestCase
 
@@ -17,21 +18,19 @@
 - (void)setUp
 {
     [super setUp];
-    [SCSoundCloud  setClientID:@"<Client ID>"
-                        secret:@"<Client Secret>"
-                   redirectURL:[NSURL URLWithString:@"<Redirect URL>"]];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    [SCSoundCloud  setClientID:@"82764c9c96756f4b3aba80e2d08050fe"
+                        secret:@"88eae0cafc1fce750ec9c41052b13144"
+                   redirectURL:[NSURL URLWithString:@"SoundcloudTest://"]];
 }
 
 - (void)tearDown
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    //XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
